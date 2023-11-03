@@ -39,3 +39,4 @@ urllib3                 # multiple
 uro                     # Tool
 uvicorn                 # theHarvester
 uvloop;platform_system != "Windows" # theHarvester
+pillow>=10.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
